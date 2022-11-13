@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie Planet by Pavlo</title>
+    <link rel="stylesheet" href="movie.css">
+</head>
+
+<body>
+    <h1>Psyhiv Pictures</h1>
+    <div class="main_content">
+        <div class="main_info">
+            <div class="availableList">
+                <h2>On the screen today</h2>
+                <div id="list">
+                </div>
+            </div>
+        </div>
+        <div class="addition_info">
+            <p>By Genre</p>
+            <div class="wrapper">
+                <button id="buttAction">Action </button>
+                <button id="buttDrama">Drama </button>
+                <button id="buttCrime">Crime </button>
+                <button id="buttFantasy">Fantasy </button>
+                <button id="buttAnimated">Animated </button>
+            </div>
+            <div class="genre_list">
+                <div id="genre"></div>
+            </div>
+        </div>
+    </div>
+    <div class="content">
+        <form action="#" class="form_One">
+            <p>Find movie by duration in minutes from</p>
+            <input type="number" id="firstduration">
+            <p>to</p>
+            <input type="number" id="secondduration">
+            <button class="findduration" onClick="showDuration()">Find movie by duration</button>
+        </form>
+        <div id="show_list_movie" class="durationList"></div>
+        <div class="fullList">
+            <h4>All films that have ever been shown in our cinema:</h4>
+            <div id="full">
+            </div>
+        </div>
+    </div>
+    <footer>Psyhiv pictures 2022
+    </footer>
+
+    <script src="scriptMovie.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,138 @@
+body {
+
+    background-color: #41454c;
+}
+
+.main_content {
+    display: flex;
+    justify-content: space-around;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    color: snow;
+}
+
+
+.availableList {
+    color: antiquewhite;
+    display: flex;
+    flex-direction: column;
+    margin-left: 50px;
+    font-size: 20px;
+}
+
+.content {
+    margin-top: 80px;
+}
+
+.fullList {
+    color: antiquewhite;
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+    margin-left: 50px;
+    font-size: 14px;
+}
+
+
+.durationList {
+    display: flex;
+    justify-content: center;
+    color: antiquewhite;
+}
+
+.form_One {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-left: 50px;
+}
+
+.form_One p {
+    margin: 10px 0px;
+    color: antiquewhite;
+    font-size: 16px;
+}
+
+#firstduration {
+    max-width: 90px;
+}
+
+#secondduration {
+    max-width: 90px;
+}
+
+.findduration {
+    max-width: 200px;
+    background-color: #41454c;
+    color: antiquewhite;
+    border: 1px solid antiquewhite;
+    border-radius: 5px;
+}
+
+.findduration:hover {
+    color: #41454c;
+    transition: all 0.5s ease-out;
+    background-color: antiquewhite
+}
+
+
+.addition_info {
+    display: flex;
+    flex-direction: column;
+
+    color: rgb(255, 255, 255);
+}
+
+.addition_info p {
+    text-align: center;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: row;
+
+}
+
+.wrapper button {
+    border: 1px solid antiquewhite;
+    height: 30px;
+    width: 100px;
+    margin: 0px 5px;
+    color: white;
+    background-color: #41454c;
+    border-radius: 5px;
+}
+
+.wrapper button:hover {
+    border: 1px solid antiquewhite;
+    border-radius: 5px;
+    color: #41454c;
+    background-color: white;
+    transition: all 0.2s ease-in;
+}
+
+.genre_list {
+    margin-left: 100px;
+    min-width: 100px;
+    max-width: 300px;
+    color: antiquewhite;
+}
+
+.genre_list ol {
+    padding: 5px;
+    margin: 10px 0px;
+}
+
+.genre_list li {
+    margin: 3px 0px;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    color: antiquewhite;
+    font-size: 14px;
+}
