@@ -1,5 +1,5 @@
 # kottans-frontend
 
-TEST
-
 ## JS Basics
+
+## DOM
