@@ -22,11 +22,11 @@
         <div class="addition_info">
             <p>By Genre</p>
             <div class="wrapper">
-                <button id="buttAction">Action </button>
-                <button id="buttDrama">Drama </button>
-                <button id="buttCrime">Crime </button>
-                <button id="buttFantasy">Fantasy </button>
-                <button id="buttAnimated">Animated </button>
+                <button onclick="showGenreList('Action')">Action </button>
+                <button onclick="showGenreList('Drama')">Drama </button>
+                <button onclick="showGenreList('Crime')">Crime </button>
+                <button onclick="showGenreList('Fantasy')">Fantasy </button>
+                <button onclick='showGenreList("Animated movie")'>Animated </button>
             </div>
             <div class="genre_list">
                 <div id="genre"></div>
@@ -50,7 +50,7 @@
     </div>
     <footer>Psyhiv pictures 2022
     </footer>
-
+    <script src="backEndList.js"></script>
     <script src="scriptMovie.js"></script>
 
 </body>

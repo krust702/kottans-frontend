@@ -87,6 +87,7 @@ h1 {
 }
 
 .addition_info p {
+    color: antiquewhite;
     text-align: center;
 }
 
@@ -101,7 +102,7 @@ h1 {
     height: 30px;
     width: 100px;
     margin: 0px 5px;
-    color: white;
+    color: antiquewhite;
     background-color: #41454c;
     border-radius: 5px;
 }
@@ -110,7 +111,7 @@ h1 {
     border: 1px solid antiquewhite;
     border-radius: 5px;
     color: #41454c;
-    background-color: white;
+    background-color: antiquewhite;
     transition: all 0.2s ease-in;
 }
 
@@ -135,4 +136,25 @@ footer {
     justify-content: center;
     color: antiquewhite;
     font-size: 14px;
+}
+
+
+#firstduration::-webkit-inner-spin-button,
+#firstduration::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+#firstduration {
+    -moz-appearance: textfield;
+}
+
+#secondduration::-webkit-inner-spin-button,
+#secondduration::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+#secondduration {
+    -moz-appearance: textfield;
 }
